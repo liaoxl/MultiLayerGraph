@@ -86,6 +86,21 @@ a minimum cut on the following graph:
 
 ///////////////////////////////////////////////////
 
+
+                           SOURCE               Node_Layer 0
+                       /  |      |   \
+                    2 / 5 |     4|   1\         Layer 1
+                     /    |      |     \
+                   n0 --- n1 --- n2 --- n3      Node_Layer 1
+                    |  2  |   4  |   2  |
+                   4|   2 |     2|     4|       Layer 2
+                    |     |      |      |
+                   n0 --- n1 --- n2 --- n3      Node_Layer 2
+                     \  2 |   4  |   2 /
+                    1 \ 5 |     3|   2/         Layer 3
+                       \  |      |   /
+                            SINK                Node_Layer 3
+
 #include <stdio.h>
 #include "graph.h"
 
