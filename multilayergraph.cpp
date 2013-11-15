@@ -60,7 +60,7 @@ void MultiLayerGraph<captype,tcaptype,flowtype>::add_tweights(node_id i, label_i
     }
     else
     {
-        graph->add_edge(i*layer_num,i*layer_num+j,cap,cap);
+        graph->add_edge(i*layer_num+j-1,i*layer_num+j,cap,cap);
     }
 }
 
