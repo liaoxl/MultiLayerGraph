@@ -9,8 +9,9 @@ MultiLayerGraph
 	Reimplemented to make it available for public use
 	2012~2013
 
+--------------------------------------------------------------------
 
-1. Introduction.
+### 1. Introduction.
 
 This software library implements the maxflow algorithm described in
 	
@@ -28,7 +29,7 @@ the aforementioned paper in any resulting publication.
 
 ----------------------------------------------------------------------
 
-2. Example usage.
+### 2. Example usage.
 
 This section shows how to use the library to compute
 a minimum cut on the following graph:
