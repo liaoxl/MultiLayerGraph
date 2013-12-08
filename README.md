@@ -20,9 +20,9 @@ This software library implements the maxflow algorithm described in
 	In Pattern Recognition
 	October 2010
 
-This algorithm was developed by Wenbing Tao and Feng Chang in Research.
+This algorithm was developed by Wenbing Tao and Feng Chang in Academic Research.
 To make it available for public use,
-it was later reimplemented by Xiangli Liao based on open publications.
+it was later reimplemented by **Xiangli Liao** based on open publications.
 
 If you use this software for research purposes, you should cite
 the aforementioned paper in any resulting publication.
@@ -30,6 +30,8 @@ the aforementioned paper in any resulting publication.
 ---------------------------------------------------------------------
 
 ### 2. Related Works
+
+Our work is based on the public available source code `MAXFLOW` developed by Boykov and Kolmogorov
 
     MAXFLOW - software for computing mincut/maxflow in a graph
                         Version 3.01
@@ -153,4 +155,4 @@ a minimum cut on the following graph:
 	    return 0;
 	}
 
-///////////////////////////////////////////////////
+----------------------------------------------------------------------
