@@ -6,7 +6,7 @@ MultiLayerGraph
 
 	https://github.com/liaoxl/MultiLayerGraph
 	Xiangli Liao(liaoxl2012@gmail.com)
-	Reimplemented to make it available for public use
+	Implemented to make it available for public use
 	2012~2013
 
 --------------------------------------------------------------------
@@ -30,16 +30,16 @@ Bae and Tai devise a similar multilayer graph to solve the multiphase Mumford-Sh
 	
 This software is an implementation of the above publications and is applied in some publications of Wenbing Tao (Mentor of **Xiangli Liao**)
 
-This software library implements the maxflow algorithm described in
+This MultiLayerGraph library implements the maxflow algorithm described in
 
 	"Interactively multiphase image segmentation based on variational formulation and graph cuts"
 	Wenbing Tao, Feng Chang, Liman Liu, Hai Jin, Tianjiang Wang
 	In Pattern Recognition
 	October 2010
 
-This algorithm was developed by Wenbing Tao in Academic Research.
+This algorithm was proposed by Wenbing Tao in Academic Research.
 To make it available for public use,
-it was later reimplemented by **Xiangli Liao** based on open publications.
+it was later implemented by **Xiangli Liao** based on open publications.
 
 If you use this software for research purposes, you should cite
 the aforementioned paper in any resulting publication.
