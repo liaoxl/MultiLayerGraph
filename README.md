@@ -13,6 +13,23 @@ MultiLayerGraph
 
 ### 1. Introduction.
 
+The MultiLayerGraph was firstly proposed in
+
+	"Exact Optimization for Markov Random Fields with Convex Priors"
+	Hiroshi Ishikawa
+	In IEEE Transactions on PAMI
+	October 2003
+
+which can exactly optimize the multilabel MRF energy.
+Bae and Tai devise a similar multilayer graph to solve the multiphase Mumford-Shah model in
+
+	"Graph Cut Optimization for the Piecewise Constant Level Set Method Applied to Multiphase Image Segmentation"
+	Egil Bae and Xue-Cheng Tai
+	In The 2nd international conference, SSVM
+	2009
+	
+This software is an implementation of the above publications and is applied in some publications of Wenbing Tao (Mentor of **Xiangli Liao**)
+
 This software library implements the maxflow algorithm described in
 
 	"Interactively multiphase image segmentation based on variational formulation and graph cuts"
@@ -20,7 +37,7 @@ This software library implements the maxflow algorithm described in
 	In Pattern Recognition
 	October 2010
 
-This algorithm was developed by Wenbing Tao and Feng Chang in Academic Research.
+This algorithm was developed by Wenbing Tao in Academic Research.
 To make it available for public use,
 it was later reimplemented by **Xiangli Liao** based on open publications.
 
@@ -29,7 +46,7 @@ the aforementioned paper in any resulting publication.
 
 ---------------------------------------------------------------------
 
-### 2. Related Works
+### 2. Related Works.
 
 Our work is based on the public available source code `MAXFLOW` developed by Boykov and Kolmogorov
 
