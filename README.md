@@ -6,7 +6,7 @@ MultiLayerGraph
 
 	https://github.com/liaoxl/MultiLayerGraph
 	Xiangli Liao(liaoxl2012@gmail.com)
-	Implemented to make it available for public use
+	Implemented to make it available for public usage
 	2012~2013
 
 --------------------------------------------------------------------
